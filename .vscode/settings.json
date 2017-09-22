@@ -1,0 +1,8 @@
+{
+  "editor.formatOnSave": true,
+  "rust.build_on_save": true,
+  "files.exclude": {
+    "**/*.rs.bk": true
+  },
+  "editor.rulers": [80, 120]
+}

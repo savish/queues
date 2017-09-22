@@ -1,6 +1,15 @@
 [package]
 name = "queues"
-version = "0.1.0"
-authors = ["Alan Kavishe <alan@filteris.co.za>"]
+version = "1.0.0"
+authors = ["Alan Kavishe <afksavish@gmail.com>"]
+license = "MIT/Apache-2.0"
+description = "Efficient FIFO Queue data structures"
+repository = "https://gitlab.com/rust-algorithms/queues"
+readme = "README.md"
+keywords = ["data-structures"]
+categories = ["data-structures"]
+
+[badges]
+gitlab = { repository = "https://gitlab.com/rust-algorithms/queues", branch = "master" }
 
 [dependencies]
