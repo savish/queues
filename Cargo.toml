@@ -10,6 +10,6 @@ keywords = ["data-structures"]
 categories = ["data-structures"]
 
 [badges]
-gitlab = { repository = "https://gitlab.com/rust-algorithms/queues", branch = "master" }
+gitlab = { repository = "rust-algorithms/queues", branch = "master" }
 
 [dependencies]
