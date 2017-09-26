@@ -29,7 +29,7 @@ test:cargo:
   script:
   - rustc --version && cargo --version      # Print version info for debugging
   - cargo test --verbose --jobs 1 --release # Don't paralize to make errors more readable
-  - cargo run
+#  - cargo run
 
 # Deploy release version executable
 #deploy:cargo:
