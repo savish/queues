@@ -1,6 +1,6 @@
 [package]
 name = "queues"
-version = "1.0.0"
+version = "1.0.1"
 authors = ["Alan Kavishe <afksavish@gmail.com>"]
 license = "MIT/Apache-2.0"
 description = "Efficient FIFO Queue data structures"
