@@ -194,7 +194,7 @@ pub trait IsQueue<T: Clone> {
 ///
 /// # Examples
 ///
-/// This example uses the [`queue!`][1] macro to add elements to the queue. Note
+/// This example uses the `queue!` macro to add elements to the queue. Note
 /// that the first element in the list of elements passed to the macro is
 /// considered the 'oldest'.
 ///
@@ -217,8 +217,6 @@ pub trait IsQueue<T: Clone> {
 /// // Check the queue size
 /// assert_eq!(q.size(), 2);
 /// # }
-///
-/// [1]: macro.queue.html
 /// ```
 #[derive(Debug)]
 pub struct Queue<T: Clone> {
