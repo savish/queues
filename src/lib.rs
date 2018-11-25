@@ -301,7 +301,7 @@ impl<T: Clone> IsQueue<T> for Queue<T> {
     /// assert_eq!(q.size(), 0);
     /// ```
     fn remove(&mut self) -> Result<T, &str> {
-        if self.queue.len() > 0 {
+        if !self.queue.is_empty() {
             Ok(self.queue.remove(0usize))
         } else {
             Err("The queue is empty")
@@ -504,7 +504,7 @@ impl<T: Clone> IsQueue<T> for Buffer<T> {
     /// assert_eq!(buf.size(), 0);
     /// ```
     fn remove(&mut self) -> Result<T, &str> {
-        if self.queue.len() > 0 {
+        if !self.queue.is_empty() {
             Ok(self.queue.remove(0usize))
         } else {
             Err("The buffer is empty")
@@ -716,7 +716,7 @@ impl<T: Clone> IsQueue<T> for CircularBuffer<T> {
     /// assert_eq!(cbuf_def.remove(), Ok(4));
     /// ```
     fn remove(&mut self) -> Result<T, &str> {
-        if self.queue.len() > 0 {
+        if !self.queue.is_empty() {
             if let Some(val) = self.default_value.clone() {
                 self.queue.push(val);
             };

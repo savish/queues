@@ -3,5 +3,6 @@
   "files.exclude": {
     "**/*.rs.bk": true
   },
-  "editor.rulers": [80, 120]
+  "editor.rulers": [80, 120],
+  "rust.clippy_preference": "on"
 }
