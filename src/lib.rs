@@ -37,7 +37,7 @@
 //!
 //! ```yaml
 //! [dependencies]
-//! queues = "1.0.0"
+//! queues = "1.0.2"
 //! ```
 //!
 //! In your files, import the crate and use it's members:

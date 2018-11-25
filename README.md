@@ -8,21 +8,21 @@ A queue is a linear data structure that commonly defines three methods:
 
 1. `add`: Also called `queue` or `push`, this adds elements to the queue.
 2. `remove`: Also called `deque` or `pop`, this removes the _oldest_
-    element from the queue.
+   element from the queue.
 3. `peek`: Show the next element in the queue scheduled for removal.
 
 There are a number of variants of queues. In this crate, the available
 variants are:
 
 - `Queue<T>`: A simple FIFO queue with a growable size and no limit on its
-    capacity.
+  capacity.
 - `Buffer<T>`: A FIFO queue with with a limited capacity. The buffer can
-    have a growable size (up to the defined capacity), or it can be
-    initialized at capacity, with empty slots being occupied by default
-    values.
+  have a growable size (up to the defined capacity), or it can be
+  initialized at capacity, with empty slots being occupied by default
+  values.
 - `CircularBuffer<T>`: Similar to the buffer above, but allowing for
-    overflow. Any additions to the circular buffer that would exceed its
-    capacity causes its oldest element to be pushed out.
+  overflow. Any additions to the circular buffer that would exceed its
+  capacity causes its oldest element to be pushed out.
 
 # Quick start
 
@@ -37,7 +37,7 @@ has been added to your dependencies in your `Cargo.toml` file.
 
 ```yaml
 [dependencies]
-queues = "1.0.0"
+queues = "1.0.2"
 ```
 
 In your files, import the crate and use it's members:
