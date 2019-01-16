@@ -1,7 +1,8 @@
 {
   "editor.formatOnSave": true,
   "files.exclude": {
-    "**/*.rs.bk": true
+    "**/*.rs.bk": true,
+    "**/target": true
   },
   "editor.rulers": [80, 120],
   "rust.clippy_preference": "on"
