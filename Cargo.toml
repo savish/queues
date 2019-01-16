@@ -8,6 +8,7 @@ repository = "https://gitlab.com/rust-algorithms/queues"
 readme = "README.md"
 keywords = ["data-structures"]
 categories = ["data-structures"]
+edition = "2018"
 
 [badges]
 gitlab = { repository = "rust-algorithms/queues", branch = "master" }
